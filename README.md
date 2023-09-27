@@ -24,7 +24,7 @@ These functions live under the `UnicodeConvAtl` namespace.
 This code compiles cleanly at warning level 4 (`/W4`)
 on both 32-bit and 64-bit builds.
 
-Just `#include "UnicodeConvAtl.h"` in your projects, and enjoy!
+Just `#include` [**`"UnicodeConvAtl.h"`**](UnicodeConvAtl/UnicodeConvAtl.h) in your projects, and enjoy!
 
 ## Note on Compiling the Code on Older VC++ Compilers
 
