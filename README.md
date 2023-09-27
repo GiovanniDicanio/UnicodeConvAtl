@@ -1,10 +1,12 @@
 # UnicodeConvAtl
-Convenient easy-to-use and efficient helper functions to convert between Unicode UTF-16 and UTF-8 using ATL CString
+Convenient easy-to-use and efficient helper functions to convert between Unicode UTF-16 and UTF-8 
+using ATL CString
 
 ---
 
 This project contains a header-only C++ file that implements a couple of functions
-to simply, efficiently, and conveniently convert Unicode text between UTF-16 and UTF-8, using ATL `CString` classes and direct Win32 API calls.
+to simply, efficiently, and conveniently convert Unicode text between UTF-16 and UTF-8, 
+using ATL `CString` classes and direct Win32 API calls.
 
 `CStringW` is used to store **UTF-16**-encoded text.
 `CStringA` is used to store **UTF-8**-encoded text.
