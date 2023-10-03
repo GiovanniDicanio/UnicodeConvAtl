@@ -189,7 +189,7 @@ inline CStringW ToUtf16(CStringA const& utf8)
 
     // Make room in the destination string for the converted bits
     CStringW utf16;
-    wchar_t* utf16Buffer = utf16.GetBuffer(utf8Length);
+    wchar_t* utf16Buffer = utf16.GetBuffer(utf16Length);
     ATLASSERT(utf16Buffer != nullptr);
 
     // Do the actual conversion from UTF-8 to UTF-16
